@@ -8,5 +8,9 @@ import { Component } from '@angular/core';
   styleUrl: './home.component.scss'
 })
 export class HomeComponent {
+  title: string = "My Home Page"
+  myAction(){
+    alert('I am binding data')
+  }
 
 }
