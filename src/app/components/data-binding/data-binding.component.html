@@ -1,0 +1,20 @@
+<h1>Data-Binding</h1>
+<h3>One Way Data-Binding</h3>
+<h4>1. Interpolation</h4>
+<p><b>{{topic}}</b> from {{name}}</p> <br>
+<h4>2. Property Binding</h4>
+<input type="text" name="" id="" [value]="topic"><br>
+<img [src]="image" alt=""><br>
+<h4>3. Event Binding</h4>
+<p>i. Click Event:<button (click)="onSave()">Save</button></p>
+<p>ii. Change Event:
+    <select (change)="onChange()" name="" id="">
+        <option value="Country">Country</option>
+        <option value="ZAR">ZAR</option>
+        <option value="BW">BW</option>
+    </select>
+</p>
+
+<h3>One Way Data-Binding</h3>
+<input type="text" name="" id="" [(ngModel)]="topic">
+<p>{{topic}}</p>
